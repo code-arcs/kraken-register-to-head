@@ -8,7 +8,7 @@
 
  `server.start(() => {
     const registerToHead = require('registerToHead');
-    registerToHead(options);
+    registerToHead.register(options);
  });
  `
  
